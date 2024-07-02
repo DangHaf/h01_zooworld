@@ -1,0 +1,35 @@
+const Map<String, String> vi = {
+  /// ============== BASE ==============///
+  'change_language': 'Ngôn ngữ',
+  'select_language': 'Chọn ngôn ngữ',
+  'English': 'Tiếng Anh',
+  'Espanol': 'Tây Ban Nha',
+  'Portuguese': 'Bồ Đào Nha',
+  'Hindi': 'Tiếng Hin-đi',
+  'Francais': 'Pháp',
+  'Vietnamese': 'Tiếng Việt',
+  'Russian': 'Tiếng Nga',
+
+  // HOME
+  'welcome_back': 'Chào mừng trở lại,',
+  'appointments': 'Lịch hẹn',
+  'you_have': 'Bạn có',
+  'appointments_customer': 'cuộc hẹn gặp khách hàng ngay hôm nay!',
+  'view_all': 'Xem tất cả',
+  'service': 'Dịch vụ: ',
+  'view_detail': 'Xem chi tiết',
+  'daily_income': 'Thu nhập hàng ngày',
+  'service_total': 'Tổng dịch vụ',
+  'tip_total': 'Tổng tiền boa',
+  'products_total': 'Tổng sản phẩm',
+  'discount_total': 'Tổng chiết khấu',
+  'commission': 'Nhiệm vụ',
+  'tip_for_staff': 'Tiền boa cho nhân viên',
+  'profit_total': 'Tổng lợi nhuận',
+  'turn_total': 'Tổng Lượt',
+  'feed_back': 'Nhận xét',
+  'feed_back_s': 'Nhận xét',
+  'see_all': 'Xem tất cả',
+  'notification': 'Thông báo',
+
+};

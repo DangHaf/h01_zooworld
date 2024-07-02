@@ -1,0 +1,35 @@
+const Map<String, String> fr = {
+  //
+  // Base.
+  'change_language': 'Langue',
+  'select_language': 'Choisir la langue',
+  'English': 'Anglais',
+  'Espanol': 'Espagnol',
+  'Portuguese': 'Portugais',
+  'Hindi': 'Hindi',
+  'Francais': 'Français',
+  'Vietnamese': 'Vietnamien',
+  'Russian': 'Russe',
+
+  // HOME
+  'welcome_back': 'Bon retour,',
+  'appointments': 'Rendez-vous',
+  'you_have': 'Vous avez',
+  'appointments_customer': "rendez-vous avec des clients aujourd'hui!",
+  'view_all': 'Voir tout',
+  'service': 'Service : ',
+  'view_detail': 'Voir les détails',
+  'daily_income': 'Revenu quotidien',
+  'service_total': 'Total des services',
+  'tip_total': 'Total des pourboires',
+  'products_total': 'Total des produits',
+  'discount_total': 'Total des réductions',
+  'commission': 'Commission',
+  'tip_for_staff': 'Pourboire pour le personnel',
+  'profit_total': 'Bénéfice total',
+  'turn_total': 'Total des tours',
+  'feed_back': 'Commentaires',
+  'feed_back_s': 'Commentaires',
+  'see_all': 'Voir tout',
+  'notification': 'Notification',
+};
