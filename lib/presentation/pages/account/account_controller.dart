@@ -1,5 +1,4 @@
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:get/get.dart';
 import 'package:get_it/get_it.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -16,7 +15,6 @@ class AccountController extends GetxController {
   final DioClient _dioClient = GetIt.I.get<DioClient>();
 
   GoogleSignIn googleSignIn = GoogleSignIn();
-  FacebookAuth facebookAuth = FacebookAuth.instance;
   final AccountRepository _accountRepository = GetIt.I.get<AccountRepository>();
   final AuthRepository _authRepository = GetIt.I.get<AuthRepository>();
   RxBool ignoring = false.obs;
@@ -69,7 +67,6 @@ class AccountController extends GetxController {
         sl<SharedPreferenceHelper>().removeJwtToken();
         Get.offAllNamed(AppRoute.DASH_BOARD);
         googleSignIn.signOut();
-        facebookAuth.logOut();
       },
       onError: (error) {
         IZIAlert().error(message: error.toString());
@@ -90,7 +87,6 @@ class AccountController extends GetxController {
       sl<SharedPreferenceHelper>().removeJwtToken();
       Get.offAllNamed(AppRoute.DASH_BOARD);
       googleSignIn.signOut();
-      facebookAuth.logOut();
       _dioClient.resetLang();
     }, onError: (error) {
       IZIAlert().error(message: error.toString());
